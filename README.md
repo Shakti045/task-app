@@ -20,7 +20,7 @@ Here Is The Guidline To Run The Project On Local
     ```
 1. Open the project in your browser at [`http://localhost:5173`](http://localhost:5173) to view the project.
 
-1.Demo Link For The Application
+Demo Link For The Application
 ```sh
     https://harmonious-cassata-fd21ba.netlify.app/
 ```
