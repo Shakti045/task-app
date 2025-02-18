@@ -12,7 +12,7 @@ const TaskCard = ({task}:{task:Task}) => {
     const [editmode,seteditmode] = useState(false); 
     const dispatch = useDispatch();
   return (
-    <div className=' w-full flex justify-between border-b-2 p-4'>
+    <div className=' w-full flex justify-between border-b-2 p-4 max-sm:flex-col max-sm:gap-2'>
         <div className=' flex gap-2 items-center '>
          <Checkbox onCheckedChange={()=>dispatch(tooglecompleted(task.id))} checked={task.completed}/>
          <Dialog>
