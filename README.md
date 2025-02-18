@@ -8,6 +8,11 @@ Here Is The Guidline To Run The Project On Local
     ```sh
     git clone https://github.com/Shakti045/task-app.git
     ```
+    
+1. Move to the project directory.
+    ```sh
+    cd task-app
+    ```    
 
 1. Install the required packages.
     ```sh
