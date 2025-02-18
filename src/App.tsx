@@ -10,7 +10,7 @@ import Filter from "./components/core/Filter";
 import { ModeToggle } from "./components/ui/mode-toggle";
 import { Button } from "./components/ui/button";
 import { Plus } from "lucide-react";
-import SearchBoxt from "./components/core/SearchBoxt";
+import SearchBox from "./components/core/SearchBox";
 import SearchedTasks from "./components/core/SearchedTasks";
 
 const App = () => {
@@ -85,7 +85,7 @@ const App = () => {
           </Button>
           <div className="flex items-center gap-2">
             <ModeToggle />
-            <SearchBoxt searchValue={searchValue} setSearchValue={setSearchValue} />
+            <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
             <Filter
               seeoption={seeOption}
               setseeoption={setSeeOption}

@@ -5,7 +5,7 @@ const SearchedTasks = ({tasks}:{tasks:Task[]}) => {
   return (
     <div>
         {
-            tasks.length === 0 ? <h1 className="text-center mt-6 text-2xl">No tasks found</h1> : tasks.map((task, index) => (
+            tasks.length === 0 ? <h1 className="text-center mt-6 text-2xl">No tasks found</h1> : tasks.map((task) => (
                 <TaskCard key={task.id} task={task}/>
             ))
         }
